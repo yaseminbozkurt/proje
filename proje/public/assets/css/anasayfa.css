@@ -1,0 +1,641 @@
+body{
+    background-image: url("../images/arkaplan.jpg");
+    background-size: 35%;
+}
+.w-100 {
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    
+}
+.katalog {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.resim {
+    border: 3px ridge #8a0606;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.katalog .resim img {
+    
+    width: 100%;
+}
+.baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.anabaslik{
+    width: 100%;
+    height: 75px;
+    justify-content: space-between;
+    padding: 15px;
+    z-index: 99;
+    align-items: center;
+    font-weight: bold;
+}
+.resim img{
+    width: 100%;
+}
+
+.baslik a {
+    color: black;
+    text-decoration: none;
+}
+.baslik a:hover{
+    color: black;
+    text-decoration: none;
+}
+.corba-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog .corba-resim img {
+    
+    width: 100%;
+}
+.corba-resim img{
+    width: 100%;
+}
+.corba-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.corba-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.corba-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}
+.arasicak-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog.arasicak-resim img {
+    
+    width: 100%;
+}
+.arasicak-resim img{
+    width: 100%;
+}
+.arasicak-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.arasicak-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.arasicak-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}
+.anayemek-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog.anayemek-resim img {
+    
+    width: 100%;
+}
+.anayemek-resim img{
+    width: 100%;
+}
+.anayemek-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.anayemek-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.anayemek-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}
+.salata-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog.salata-resim img {
+    
+    width: 100%;
+}
+.salata-resim img{
+    width: 100%;
+}
+.salata-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.salata-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.salata-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}
+.mama-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog.mama-resim img {
+    
+    width: 100%;
+}
+.mama-resim img{
+    width: 100%;
+}
+.tatli-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.tatli-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.tatli-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}.tatli-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog.tatli-resim img {
+    
+    width: 100%;
+}
+.tatli-resim img{
+    width: 100%;
+}
+.tatli-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.tatli-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.tatli-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}
+.mama-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog.mama-resim img {
+    
+    width: 100%;
+}
+.mama-resim img{
+    width: 100%;
+}
+.mama-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.mama-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.mama-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}.mama-resim{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.katalog.mama-resim img {
+    
+    width: 100%;
+}
+.mama-resim img{
+    width: 100%;
+}
+.mama-baslik{
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.mama-baslik a {
+    color: black;
+    text-decoration: none;
+}
+.mama-baslik a:hover{
+    color: black;
+    text-decoration: none;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a0606;
+}
+li {
+    display:inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+}
+li a:hover{
+    
+    background-color:#f39c12; 
+}
+ul li ul {
+    background-color:#000000;
+    display:none;
+    position:absolute;
+    width:100px
+}
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+.box{
+    top: 50%;
+    left: 50%;
+    transform: translate(0,0);
+}
+.input {
+    padding: 10px;
+    width: 60px;
+    height: 120pxs;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #000000;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 350px;
+    background: #f39c12;
+    border-radius: 10px;
+}
+i{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+.footer{
+    background-color: #8a0606;
+    margin: auto;
+    padding:14px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    column-count: 2;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.left-footer{
+    margin-left:auto ;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #8a0606;
+    text-align: center;
+}
+.right-footer{
+    margin-right: auto;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #8a06063a;
+    text-align: center;
+}
+.social-icons {
+    text-align: center;
+}  
+.social-icons li {
+    display:inline-block;
+    list-style-type:none;
+}
+.social-icons li img {
+    width:70px;
+    height:70px;
+    margin-right: auto;
+}
+
+/* Basic appearance stuff ends here */
+.container {
+	width:100%;
+    padding-top: 15px;
+	padding-right:10px;
+	padding-left:10px;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:800px;
+    margin: auto;
+}
+/* Parallax Horizontal Scroller - by Bree Dulmage, 2020 */
+#proparallax {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	min-height: 27.5rem;
+	border: 5px solid black;
+	box-shadow: 0px 8px 10px 8px grey;
+}	
+
+#proparallax img {
+	position: absolute;
+	width: 50rem;
+	height: 37.5rem;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+@keyframes parallax_one { /* controls img.one movement */
+	0% { /* .imageloaded */
+		height: 37.5rem;
+		width: 50rem;
+		left: 0rem;
+		opacity: 1;
+	}
+	/* .imagehold runs from 0 to 27.77% */
+	27.77% { /* .imageloaded */
+		width: 50rem;
+		left: 0rem;
+	}
+	27.78% { /* .imagepreunload */
+		width: 50rem;
+		left: 0rem;
+		right: 50rem;
+	}
+	33.33% { /* .imageunloaded */
+		height: 37.5rem;
+		width: 0rem;
+		left: 0rem;
+		right: 0rem;
+		opacity: 1;
+	}
+	33.34% { /* imageoff */
+		opacity: 0;	
+	}
+	94.43% { /* .imageon */
+		left: 0rem;
+		opacity: 0;
+	}
+	94.44% { /* .imageinitial */
+		height: 37.5rem;
+		width: 0rem;
+		left: 50rem;
+		opacity: 1;
+	}
+	100% { /* .imageloaded */
+		width: 50rem;
+		left: 0rem;
+		opacity: 1;		
+	}
+}
+
+@keyframes parallax_two { /* controls img.two movement */
+	0% { /* .imageoff */
+		opacity: 0;
+	}
+	27.77% { /* .imageon */
+		left: 0rem;
+		opacity: 0;
+	}
+	27.78% { /* .imageinitial */
+		width: 0rem;
+		height: 37.5rem;
+		left: 50rem;
+		opacity: 1;
+	}
+	33.33% { /* .imageloaded */
+		width: 50rem;
+		left: 0rem;
+	}
+	/* .imagehold runs from 33.34% - 61.10% */
+	61.10%{ /* .imageloaded */
+		width: 50rem;
+		left: 0rem;
+	}
+	61.11% { /* .imagepreunload */
+		width: 50rem;
+		left: 0rem;
+		right: 50rem;
+	}
+	66.67% { /* .imageunloaded */
+		width: 0rem;
+		right: 0rem;
+		left: 0rem;
+		height: 37.5rem;
+		opacity: 1;
+	}
+	66.68% { /* .imageoff */
+		opacity: 0;
+	}
+	100% { /* .imageoff */
+		opacity: 0;
+	}
+}
+
+@keyframes parallax_three { /* controls img.three movement */
+	0% { /* .imageoff */
+		opacity: 0;
+	}
+	61.10%{ /* .imageon */
+		opacity: 0;
+	}
+	61.11% { /* .imageinitial */
+		width: 0rem;
+		height: 37.5rem;
+		left: 50rem;
+		opacity: 1;		
+	}
+	66.67% { /* .imageloaded */
+		width: 50rem;
+		left: 0rem;
+	}
+	/* .imagehold runs from 66.67% - 94.43% */
+	94.43% { /* .imageloaded */
+		width: 50rem;
+		left: 0rem;
+	}
+	94.44% { /* .imagepreunload */
+		width: 50rem;
+		left: 0rem;
+		right: 50rem;
+	}
+	100% { /* imageunloaded */
+		width: 0rem;
+		right: 0rem;
+		left: 0rem;
+		height: 37.5rem;
+		opacity: 1;
+	}
+}
+
+#proparallax img.one{
+	animation-name: parallax_one; /* controls img.one movement */
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-direction: forwards;
+	object-fit: cover;
+}
+
+#proparallax img.two {
+	animation-name: parallax_two; /* controls img.two movement */
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-direction: forwards;
+	object-fit: cover;
+}
+
+#proparallax img.three {
+	animation-name: parallax_three; /* controls img.three movement */
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-direction: forwards;
+	object-fit: cover;
+}
+#myInput {
+    background-color: rgba(255, 255, 255, 0);
+    background-position: auto;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 12px; 
+    margin-top: 20px;
+    margin-left:24%;
+  }
+  .sticky{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 25%;
+    padding: 5px;
+    margin-left: 10%;
+    margin-top: 5px;
+
+  }
+  .tuyo{
+    text-align: center;
+    width: 55%;
+    margin-left: 400px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-bottom: 25px;
+  }
+  .tuyo-baslik{
+    width: 25%;
+    margin-left: 200px;
+    background-color: white;
+    font-size: larger;
+    font-weight: bold;
+  }
